@@ -1,0 +1,24 @@
+<section id="skills" class="py-20 px-6 bg-secondary/20">
+  <div class="container mx-auto max-w-6xl">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-bold mb-8 bg-hero-gradient-text bg-clip-text text-transparent">
+        Skills & Tecnologias
+      </h2>
+      <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+      <div
+        *ngFor="let skill of skills; let i = index"
+        class="bg-card-gradient backdrop-blur-sm rounded-xl p-4 border border-border shadow-card hover:shadow-glow transition-all duration-300 hover:scale-105 text-center cursor-pointer"
+        [ngClass]="skill.color"
+        [style.animationDelay]="(i * 50) + 'ms'"
+      >
+        <div class="flex flex-col items-center gap-2">
+          <div class="text-muted-foreground" [innerHTML]="getIcon(skill.icon)"></div>
+          <span class="text-sm font-medium">{{ skill.name }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
