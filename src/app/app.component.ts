@@ -6,10 +6,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CommonModule, HomeComponent, AboutComponent, NavComponent, SkillsComponent, ProjectsComponent],
+  imports: [RouterOutlet, CommonModule, HomeComponent, AboutComponent, NavComponent, SkillsComponent, ProjectsComponent, ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
