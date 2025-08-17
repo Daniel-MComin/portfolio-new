@@ -1,14 +1,13 @@
-
 <section
   id="home"
   class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
 >
-  <!-- Background gradient -->
-  <div class="absolute inset-0 bg-hero-gradient opacity-10"
-    style="background: var(--hero-gradient);"></div>
+  <div
+    class="absolute inset-0 bg-hero-gradient opacity-10"
+    style="background: var(--hero-gradient)"
+  ></div>
 
   <div class="container mx-auto px-6 text-center z-10">
-    <!-- Avatar -->
     <div class="mb-8 animate-fade-in">
       <img
         src="perfil.png"
@@ -17,78 +16,76 @@
       />
     </div>
 
-    <!-- Main content -->
     <div class="animate-slide-in-up delay-300">
       <h1
         class="text-5xl md:text-7xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent"
-         style="background: var(--hero-gradient); -webkit-background-clip: text; background-clip: text;"
+        style="
+          background: var(--hero-gradient);
+          -webkit-background-clip: text;
+          background-clip: text;
+        "
       >
         Luís Daniel
       </h1>
       <p
         class="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
       >
-        Desenvolvedor Front-end apaixonado por criar experiências digitais
-        incríveis
+        Desenvolvedor Front-end e Estudante de Engenharia de Computação
       </p>
 
-      <!-- CTA Buttons -->
       <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
         <button
           type="button"
           class="px-8 py-3 rounded-lg font-semibold bg-hero-gradient text-primary-foreground shadow transition-transform duration-300 transform hover:scale-105 text-white cursor-pointer"
-           style="background: var(--hero-gradient);"
+          style="background: var(--hero-gradient)"
           (click)="scrollToSection('projects')"
         >
           Ver Projetos
         </button>
-       <button
-  type="button"
-  class="px-8 py-3 rounded-lg font-semibold bg-white/20 border border-primary flex items-center justify-center gap-2 backdrop-blur transition hover:bg-white/30 cursor-pointer"
-  (click)="scrollToSection('contact')"
->
-  <svg
-    class="w-4 h-4"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    viewBox="0 0 24 24"
-  >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M4 4h16v16H4z"
-    />
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M22 6l-10 7L2 6"
-    />
-  </svg>
-  Entrar em Contato
-</button>
+        <button
+          type="button"
+          class="px-8 py-3 rounded-lg font-semibold bg-white/20 border border-primary flex items-center justify-center gap-2 backdrop-blur transition hover:bg-white/30 cursor-pointer"
+          (click)="scrollToSection('contact')"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 4h16v16H4z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M22 6l-10 7L2 6"
+            />
+          </svg>
+          Entrar em Contato
+        </button>
       </div>
 
-      <!-- Social Links -->
       <div class="flex justify-center gap-6 mb-16">
         <a
-          href="https://github.com"
+          href="https://github.com/Daniel-MComin"
           target="_blank"
-          class="text-muted-foreground hover:text-primary transition-colors "
+          class="text-muted-foreground hover:text-primary transition-colors text"
         >
-          <!-- Github SVG -->
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" >
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path
               d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05 .89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05 .55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"
             />
           </svg>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/luis-daniel-b5a0b7211/"
           target="_blank"
           class="text-muted-foreground hover:text-primary transition-colors"
         >
-          <!-- Linkedin SVG -->
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path
               d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v5.74z"
@@ -96,10 +93,9 @@
           </svg>
         </a>
         <a
-          href="mailto:daniel@email.com"
+          href="mailto:danielmacmin@gmail.com"
           class="text-muted-foreground hover:text-primary transition-colors"
         >
-          <!-- Mail SVG -->
           <svg
             class="w-6 h-6"
             fill="none"
@@ -114,12 +110,10 @@
       </div>
     </div>
 
-    <!-- Scroll indicator -->
     <div
       class="absolute bottom-2 left-1/2 -translate-x-1/2 cursor-pointer animate-bounce"
       (click)="scrollToSection('about')"
     >
-      <!-- ChevronDown SVG -->
       <svg
         class="w-6 h-6 text-muted-foreground"
         fill="none"
