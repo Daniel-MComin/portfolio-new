@@ -10,20 +10,19 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
    projects = [
     {
-      title: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gestão de estoque.",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "Stockmaster",
+      description: "Aplicação de gerenciamento de estoque com funcionalidades de CRUD, autenticação de usuários e relatórios.",
+      tech: ["Angular", "Django Rest", "SQLite", "Angular Material"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      demo: "https://demo.com"
+      github: "https://github.com/Daniel-MComin/stockmaster-api",
     },
     {
-      title: "Task Management App",
-      description: "Aplicativo de gerenciamento de tarefas com colaboração em tempo real e notificações push.",
-      tech: ["Vue.js", "Express", "MongoDB", "Socket.io"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Pokédex Web App",
+      description: "Aplicação Web interativa para consulta de informações sobre Pokémon, utilizando a PokeAPI.",
+      tech: ["JavaScript", "HTML5", "CSS3", "PokeAPI"],
+      image: "pokedex-print.png",
+      github: "https://github.com/Daniel-MComin/The-Pokedex-Finished",
+      demo: "https://daniel-mcomin.github.io/The-Pokedex-Finished/"
     },
     {
       title: "Weather Dashboard",
