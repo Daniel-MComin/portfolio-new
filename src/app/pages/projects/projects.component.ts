@@ -12,25 +12,41 @@ export class ProjectsComponent {
     {
       title: "Stockmaster",
       description: "Aplicação de gerenciamento de estoque com funcionalidades de CRUD, autenticação de usuários e relatórios.",
-      tech: ["Angular", "Django Rest", "SQLite", "Angular Material"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      tech: ["Angular", "Django Rest", "SQLite", "Angular Material", "Chart.js"],
+      image: "https://www.phsoft.com.br/wp-content/uploads/2020/10/controle-estoque.png",
       github: "https://github.com/Daniel-MComin/stockmaster-api",
     },
     {
-      title: "Pokédex Web App",
-      description: "Aplicação Web interativa para consulta de informações sobre Pokémon, utilizando a PokeAPI.",
+      title: "Pokédex Interativa",
+      description: "Aplicação Web interativa para consulta de informações sobre Pokémon, utilizando uma API pública chamada PokeAPI.",
       tech: ["JavaScript", "HTML5", "CSS3", "PokeAPI"],
-      image: "pokedex-print.png",
+      image: "poke-print-2.png",
       github: "https://github.com/Daniel-MComin/The-Pokedex-Finished",
       demo: "https://daniel-mcomin.github.io/The-Pokedex-Finished/"
     },
     {
-      title: "Weather Dashboard",
-      description: "Dashboard meteorológico com previsões detalhadas, mapas interativos e alertas personalizados.",
-      tech: ["React", "TypeScript", "Chart.js", "OpenWeather API"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Protótipo Departamento de Pós-Graduação",
+      description: "Protótipo de uma landing page para o departamento de pós-graduação do Instituto Federal de Educação, Ciência e Tecnologia do Ceará.",
+      tech: ["Angular", "TypeScript", "Bootstrap"],
+      image: "deppi.jpg",
+      github: "https://deppi-sandy.vercel.app/",
+      demo: "https://github.com/Daniel-MComin/deppi-"
+    },
+    {
+      title: "Campos Gerais Tour",
+      description: "Protótipo de uma landing page para um projeto ficticio de uma empresa de turismo.",
+      tech: ["Angular", "TypeScript", "SCSS"],
+      image: "cgtour.png",
+      github: "https://github.com/Daniel-MComin/cg-tour",
+      demo: "https://cg-tour.vercel.app/"
+    },
+    {
+      title: "Portfólio Pessoal",
+      description: "Protótipo de uma landing page para um projeto ficticio de uma empresa de turismo.",
+      tech: ["Angular", "TypeScript", "Tailwind CSS"],
+      image: "port.png",
+      github: "https://github.com/Daniel-MComin/cg-tour",
+      demo: "https://portfolio-new-phi-peach.vercel.app/"
     }
   ];
 
